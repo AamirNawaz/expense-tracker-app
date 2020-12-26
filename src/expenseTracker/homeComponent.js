@@ -16,9 +16,6 @@ function HomeComponent() {
             desc: newDesc
         })
 
-        setDesc('');
-        setAmount('');
-
     }
 
     const getIncome = () => {
