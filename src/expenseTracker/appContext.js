@@ -26,18 +26,6 @@ export const TransectionProvider = ({ children }) => {
         })
     }
 
-    function removeTransection(transObject) {
-        dispatch({
-            type: "REMOVE_TRANSECTION",
-            payload: {
-                amount: transObject.amount,
-                desc: transObject.desc
-            }
-        })
-    }
-
-
-
 
     return (
         < TransectionContext.Provider value={{ transections: state, addTransection }} >
