@@ -1,0 +1,41 @@
+.rootContainer{
+    padding-left: 52px;
+    padding-right: 52px;
+    background-color: rgba(245, 245, 245, 0.952);
+    box-shadow: 0 0 10px gray;
+}
+.expenseContainer{
+
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px gray;
+    text-align: center;
+}
+
+.mainContainerRow{
+    margin-bottom: 50px;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+
+.list-group  .list-group-item{
+    box-shadow: 0 0 8px grey;
+    margin: 3px;
+}
+.income{
+color:rgb(88, 194, 88);
+}
+.expense{
+color: rgb(240, 22, 22);
+}
+
+.listRedBorder{
+    border-right: 4px solid red;
+    color:red
+}
+
+.listGreenBorder{
+    border-right: 4px solid green;
+    color: green;
+}
